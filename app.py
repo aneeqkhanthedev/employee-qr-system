@@ -15,7 +15,7 @@ app = Flask(__name__)
 EMPLOYEE_CSV = 'employees.csv'
 QR_FOLDER = 'static/qrcodes'
 SECRET_KEY = 'secure_employee_key_2025_x9z7q3w8'
-BASE_URL = 'http://127.0.0.1:5000'  # Update this for production
+BASE_URL = 'https://devserver-master--qrverify.netlify.app'  # Update this for production
 
 # Set up logging
 logging.basicConfig(level=logging.DEBUG)

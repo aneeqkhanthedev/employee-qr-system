@@ -32,9 +32,9 @@
         <div class="mt-6 flex justify-center">
             <img src="{{ qr_img }}" alt="QR Code" class="w-48 h-48">
         </div>
-        <a href="http://127.0.0.1:5000/verify_qr_url/{{ emp_id }}/{{ signature }}" class="mt-2 flex justify-center"
+        <a href="https://devserver-master--qrverify.netlify.app/verify_qr_url/{{ emp_id }}/{{ signature }}" class="mt-2 flex justify-center"
             target="_blank" title="Open QR Code">
-            http://127.0.0.1:5000/verify_qr_url/{{ emp_id }}
+            https://devserver-master--qrverify.netlify.app/verify_qr_url/{{ emp_id }}
         </a>
         {% endif %}
         <div class="mt-6 text-center space-y-2">
